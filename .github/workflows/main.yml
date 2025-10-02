@@ -50,6 +50,7 @@ jobs:
   Devici_CodeGenius:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: Devici CodeGenius
         uses: Devici-ThreatModel/code-genius-action@latest
         env:
